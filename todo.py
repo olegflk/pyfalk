@@ -34,4 +34,4 @@ def todo_list():
         else:
             print("Invalid choice. Try again.")
 
-todo_list()
+todo_list()AttributeError
