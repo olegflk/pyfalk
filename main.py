@@ -6,20 +6,20 @@
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f"Hi, {name}")  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    print_hi("PyCharm")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-print('Какую программу запустить:')
-print('1 - калькулятор')
-print('2 - угадай число')
-print('3 - улятор')
-print('4 - список дел')
-print('0 - ВЫХОД')
+print("Какую программу запустить:")
+print("1 - калькулятор")
+print("2 - угадай число")
+print("3 - улятор")
+print("4 - список дел")
+print("0 - ВЫХОД")
 
 while True:
     guess = int(input("Input prog: "))
@@ -34,4 +34,3 @@ while True:
     elif guess == 0:
         print("Congratulations!")
         break
-
